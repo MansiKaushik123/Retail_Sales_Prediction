@@ -9,7 +9,7 @@ Data Files:
 Rosmann Data holds info about each store. store.csv holds the sales info per day for each store.
 1. Business Problem. Rossmann operates over 3,000 drug stores in 7 European countries. Rossmann store managers are currently tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school, and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
 
-2. Steps for solving the business problem:
+**2. Steps for solving the business problem:**
 
 a) Collecting Data- That will be involved upload the .csv file, and thoroughly checking the independent and dependent variables by using .head(), .info(), .describe(), etc.
 b) Preparing the Data- Cleaning the data to remove unwanted data, missing values, rows, and columns, duplicate values, data type conversion, etc. Visualize the data to understand how it is structured and the relationship between independent and dependent variables. Splitting the cleaned data into two sets - a training set and a testing set. The training set teaches the model to recognize patterns and relationships in the data and optimize its parameters to minimize the error on the training set. A testing set is used to check the accuracy of the model after training.
