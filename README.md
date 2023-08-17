@@ -41,3 +41,26 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 **Promo2Since[Year/Week]** - specifies the year and calendar week when the store commenced participating in Promo2
 
 **PromoInterval** - outlines the successive intervals Promo2 is initiated, listing the months the promotion begins again. For example, "Feb, May, Aug, Nov" means each cycle starts in February, May, August, and November of any given year for that store.
+
+**Approach:-**
+EDA and Feature Selection
+
+Removed Multicollinearity.
+
+Feature Selection.
+
+Splitting Dataset into train and test set.
+
+Model Training.
+
+Model Evaluation.
+
+
+**Conclusion:-**
+Write the conclusion here.
+
+1. We found that there were 172,817 rows with zero sales in the Sales column. To improve our model, we made a new dataset by excluding these zero sales rows. Using various techniques, we trained the model and achieved around 74% accuracy.
+
+2. We were interested in the entire dataset, even the rows with zero sales. So, we trained another model using different methods and achieved an accuracy of about 98%, which is much better than the previous model.
+
+3. This led us to conclude that removing rows with zero sales actually removes a lot of valuable information from the dataset, as it comprises a significant number of rows (172,817). Therefore, we decided to keep those values. Our best Root Mean Squared Percentage Error (RMPSE) score came from the Random Forest model and Gradient Boosting techniques like AdaBoost and XGBoost. We took care to choose optimal parameters to prevent overfitting in our model.
