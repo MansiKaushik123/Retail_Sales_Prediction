@@ -1,4 +1,7 @@
 **Project Name - Retail Sales Prediction**
+#
+
+![WhatsApp Image 2023-08-15 at 09 58 49](https://github.com/MansiKaushik123/Retail_Sales_Prediction/assets/140509411/b3da392b-c617-494b-9f9a-772771393429)
 
 **Problem Statement:-**
 
