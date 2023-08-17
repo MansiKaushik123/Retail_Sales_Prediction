@@ -64,3 +64,8 @@ Write the conclusion here.
 2. We were interested in the entire dataset, even the rows with zero sales. So, we trained another model using different methods and achieved an accuracy of about 98%, which is much better than the previous model.
 
 3. This led us to conclude that removing rows with zero sales actually removes a lot of valuable information from the dataset, as it comprises a significant number of rows (172,817). Therefore, we decided to keep those values. Our best Root Mean Squared Percentage Error (RMPSE) score came from the Random Forest model and Gradient Boosting techniques like AdaBoost and XGBoost. We took care to choose optimal parameters to prevent overfitting in our model.
+
+ ![238556309-0830854b-6f64-40f7-ac3c-eec15583b041](https://github.com/MansiKaushik123/Retail_Sales_Prediction/assets/140509411/f4b7a678-26b1-4386-81b0-19e8aebcffc3)
+
+
+   
